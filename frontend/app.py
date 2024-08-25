@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from data import BACKEND_PATH
+from ..data import BACKEND_PATH
 
 def main():
     st.title('Country club')
