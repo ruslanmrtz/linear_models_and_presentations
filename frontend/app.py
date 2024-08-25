@@ -1,9 +1,6 @@
 import streamlit as st
 import requests
-
-
-BACKEND_PATH = 'http://127.0.0.1:8000'
-
+from data import BACKEND_PATH
 
 def main():
     st.title('Country club')
