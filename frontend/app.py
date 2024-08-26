@@ -1,6 +1,8 @@
 import streamlit as st
 import requests
-from ..data import BACKEND_PATH
+
+BACKEND_PATH = 'https://club-15hl.onrender.com'
+
 
 def main():
     st.title('Country club')
